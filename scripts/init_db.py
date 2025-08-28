@@ -86,6 +86,13 @@ def run_migrations():
         os.chdir(project_root)
         
         # run alembic upgrade head
+        subprocess.run(
+            [sys.executable, "-m", "alembic", "stamp", "head"],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
         result = subprocess.run(
             [sys.executable, "-m", "alembic", "upgrade", "head"],
             capture_output=True,
