@@ -1,0 +1,1 @@
+"""locale service package."""
