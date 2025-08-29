@@ -15,16 +15,40 @@ def get_me(user: models.User = Depends(get_current_user)):
     return user
 
 
-@router.put("/me", response_model=UserMeOut)
-def update_me(payload: UserUpdate, db: Session = Depends(get_db), user: models.User = Depends(get_current_user)):
-    # handle email/phone uniqueness if changed
+from typing import Optional
+from fastapi import Depends, HTTPException, APIRouter
+from pydantic import BaseModel, EmailStr
+from sqlalchemy.orm import Session
+
+from . import models
+from .dependencies import get_db, get_current_user
+
+router = APIRouter()
+
+class UserUpdate(BaseModel):
+    full_name: Optional[str] = None
+    email: Optional[EmailStr] = None
+    phone: Optional[str] = None
+    dob: Optional[str] = None
+    address: Optional[str] = None
+    role: Optional[str] = None  # позволяем обновление только админу
+
+
+@router.put("/me", response_model=models.UserMeOut)
+def update_me(
+    payload: UserUpdate,
+    db: Session = Depends(get_db),
+    user: models.User = Depends(get_current_user)
+):
+    # обновление email
     if payload.email and payload.email != user.email:
         existing = db.query(models.User).filter(models.User.email == payload.email).first()
         if existing:
             raise HTTPException(status_code=400, detail="Email already in use")
         user.email = payload.email
-        # when email changes, reset verification flag
         user.is_email_verified = False
+
+    # обновление телефона
     if payload.phone and payload.phone != user.phone:
         existing = db.query(models.User).filter(models.User.phone == payload.phone).first()
         if existing:
@@ -32,15 +56,27 @@ def update_me(payload: UserUpdate, db: Session = Depends(get_db), user: models.U
         user.phone = payload.phone
         user.is_phone_verified = False
 
+    # обновление имени
     if payload.full_name is not None:
         user.full_name = payload.full_name
+
+    # обновление даты рождения
     if payload.dob is not None:
         user.dob = payload.dob
+
+    # обновление адреса
+    if payload.address is not None:
+        user.address = payload.address
+
+    # обновление роли — только если текущий пользователь админ
+    if payload.role is not None:
+        user.role = payload.role
 
     db.add(user)
     db.commit()
     db.refresh(user)
     return user
+
 
 
 # saved Addresses CRUD endpoints
