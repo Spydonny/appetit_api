@@ -39,6 +39,7 @@ class UserUpdate(BaseModel):
     phone: Optional[str] = None
     dob: Optional[str] = None
     address: Optional[str] = None
+    role: Optional[str] = None  # Role change not allowed for regular users
 
 
 class UserMeOut(BaseModel):
