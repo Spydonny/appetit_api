@@ -12,12 +12,12 @@ from app.services.locale.translation_service import get_translation_service
 router = APIRouter(prefix="/admin/localizations", tags=["admin-localizations"])
 
 # supported languages
-SUPPORTED_LANGUAGES = ["en", "ru", "kz"]
+SUPPORTED_LANGUAGES = ["en", "ru", "kk"]
 
 # pydantic schemas for localization management
 class TranslationUpdate(BaseModel):
     """schema for updating translations of a specific entity."""
-    translations: Dict[str, str]  # {"en": "English", "ru": "Russian", "kz": "Kazakh"}
+    translations: Dict[str, str]  # {"en": "English", "ru": "Russian", "kk": "Kazakh"}
 
 class BulkTranslationUpdate(BaseModel):
     """schema for bulk translation updates."""

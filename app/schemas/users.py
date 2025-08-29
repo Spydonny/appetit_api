@@ -38,6 +38,7 @@ class UserUpdate(BaseModel):
     email: Optional[EmailStr] = None
     phone: Optional[str] = None
     dob: Optional[str] = None
+    address: Optional[str] = None
 
 
 class UserMeOut(BaseModel):
@@ -46,6 +47,8 @@ class UserMeOut(BaseModel):
     email: Optional[EmailStr] = None
     phone: Optional[str] = None
     role: str
+    dob: Optional[str] = None
+    address: Optional[str] = None
     is_email_verified: bool
     is_phone_verified: bool
     saved_addresses: List[SavedAddressOut] = []

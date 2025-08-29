@@ -8,6 +8,7 @@ class RegisterRequest(BaseModel):
     email: Optional[EmailStr] = None
     phone: Optional[str] = None
     dob: Optional[str] = None
+    address: Optional[str] = None  
     password: str
 
 

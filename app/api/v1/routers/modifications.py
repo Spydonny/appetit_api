@@ -24,7 +24,7 @@ router = APIRouter(prefix="/modifications", tags=["modifications"])
 def get_modification_types(
     category: str = Query(None, description="Filter by category: sauce or removal"),
     is_active: bool = Query(True, description="Filter by active status"),
-    lc: str = Query("en", pattern="^(ru|kz|en)$"),
+    lc: str = Query("en", pattern="^(ru|kk|en)$"),
     db: Session = Depends(get_db),
 ):
     """get all available modification types"""
@@ -243,7 +243,7 @@ def apply_bulk_modifications(
 @router.get("/order-item/{order_item_id}", response_model=List[OrderItemModificationOut])
 def get_order_item_modifications(
     order_item_id: int,
-    lc: str = Query("en", pattern="^(ru|kz|en)$"),
+    lc: str = Query("en", pattern="^(ru|kk|en)$"),
     db: Session = Depends(get_db),
     user: models.User = Depends(get_current_user),
 ):

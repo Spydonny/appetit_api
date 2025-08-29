@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import OAuth2PasswordBearer
 
 from app.core.config import settings
 from app.db.session import engine
@@ -20,6 +21,7 @@ app.add_middleware(
 # mount our API routes
 app.include_router(api_v1_router, prefix="/api/v1")
 
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 
 @app.on_event("startup")
 def on_startup():

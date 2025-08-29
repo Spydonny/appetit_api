@@ -9,8 +9,8 @@ def get_localized_text(translations: Optional[Dict[str, str]], locale: str, fall
     Extract localized text from translations JSON field.
     
     Args:
-        translations: JSON dict with locale keys (e.g., {"en": "English", "ru": "Russian", "kz": "Kazakh"})
-        locale: Target locale code (ru, kz, en)
+        translations: JSON dict with locale keys (e.g., {"en": "English", "ru": "Russian", "kk": "Kazakh"})
+        locale: Target locale code (ru, kk, en)
         fallback_text: Fallback text if translations are not available
         
     Returns:
@@ -24,7 +24,7 @@ def get_localized_text(translations: Optional[Dict[str, str]], locale: str, fall
         return translations[locale]
     
     # try fallback locales in order of preference
-    fallback_locales = ["en", "ru", "kz"]
+    fallback_locales = ["en", "ru", "kk"]
     for fallback_locale in fallback_locales:
         if fallback_locale in translations:
             return translations[fallback_locale]

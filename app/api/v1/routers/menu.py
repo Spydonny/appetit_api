@@ -18,7 +18,7 @@ router = APIRouter(prefix="/menu", tags=["menu"])
 
 @router.get("/categories", response_model=List[CategoryOut])
 def list_categories(
-    lc: str = Query("en", pattern="^(ru|kz|en)$"),
+    lc: str = Query("en", pattern="^(ru|kk|en)$"),
     db: Session = Depends(get_db)
 ):
     categories = db.query(models.Category).order_by(models.Category.sort.asc(), models.Category.name.asc()).all()
@@ -35,7 +35,7 @@ def list_items(
     category_id: Optional[int] = None,
     search: Optional[str] = None,
     active: Optional[bool] = True,
-    lc: str = Query("en", pattern="^(ru|kz|en)$"),
+    lc: str = Query("en", pattern="^(ru|kk|en)$"),
     db: Session = Depends(get_db),
 ):
     q = db.query(models.MenuItem)
@@ -61,7 +61,7 @@ def list_items(
 
 
 @router.get("/items/{item_id}", response_model=MenuItemOut)
-def get_item(item_id: int, lc: str = Query("en", pattern="^(ru|kz|en)$"), db: Session = Depends(get_db)):
+def get_item(item_id: int, lc: str = Query("en", pattern="^(ru|kk|en)$"), db: Session = Depends(get_db)):
     item = db.get(models.MenuItem, item_id)
     if not item:
         raise HTTPException(status_code=404, detail="Item not found")

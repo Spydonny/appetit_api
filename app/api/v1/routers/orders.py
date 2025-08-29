@@ -235,7 +235,7 @@ def create_order(
 def my_orders(
     page: int = Query(1, ge=1),
     page_size: int = Query(20, ge=1, le=100),
-    lc: str = Query("en", pattern="^(ru|kz|en)$"),
+    lc: str = Query("en", pattern="^(ru|kk|en)$"),
     db: Session = Depends(get_db),
     user: models.User = Depends(get_current_user),
 ):
@@ -260,7 +260,7 @@ def my_orders(
 
 
 @router.get("/{order_id}", response_model=OrderOut)
-def get_order(order_id: int, lc: str = Query("en", pattern="^(ru|kz|en)$"), db: Session = Depends(get_db), user: models.User = Depends(get_current_user)):
+def get_order(order_id: int, lc: str = Query("en", pattern="^(ru|kk|en)$"), db: Session = Depends(get_db), user: models.User = Depends(get_current_user)):
     order = db.get(models.Order, order_id)
     if not order or order.user_id != user.id:
         raise HTTPException(status_code=404, detail="Order not found")

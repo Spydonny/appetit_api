@@ -124,9 +124,9 @@ class MenuItemImageUpdate(BaseModel):
 class BannerCreate(BaseModel):
     """schema for creating a new banner."""
     title: str = Field(..., description="Banner title", max_length=255)
-    title_translations: Optional[Dict[str, str]] = Field(None, description="Title translations (ru, kz, en)")
+    title_translations: Optional[Dict[str, str]] = Field(None, description="Title translations (ru, kk, en)")
     description: Optional[str] = Field(None, description="Banner description")
-    description_translations: Optional[Dict[str, str]] = Field(None, description="Description translations (ru, kz, en)")
+    description_translations: Optional[Dict[str, str]] = Field(None, description="Description translations (ru, kk, en)")
     image_url: str = Field(..., description="WebP format image URL")
     link_url: Optional[str] = Field(None, description="Optional click URL")
     is_active: bool = Field(True, description="Whether banner is active")
@@ -138,9 +138,9 @@ class BannerCreate(BaseModel):
 class BannerUpdate(BaseModel):
     """schema for updating an existing banner."""
     title: Optional[str] = Field(None, description="Banner title", max_length=255)
-    title_translations: Optional[Dict[str, str]] = Field(None, description="Title translations (ru, kz, en)")
+    title_translations: Optional[Dict[str, str]] = Field(None, description="Title translations (ru, kk, en)")
     description: Optional[str] = Field(None, description="Banner description")
-    description_translations: Optional[Dict[str, str]] = Field(None, description="Description translations (ru, kz, en)")
+    description_translations: Optional[Dict[str, str]] = Field(None, description="Description translations (ru, kk, en)")
     image_url: Optional[str] = Field(None, description="WebP format image URL")
     link_url: Optional[str] = Field(None, description="Optional click URL")
     is_active: Optional[bool] = Field(None, description="Whether banner is active")

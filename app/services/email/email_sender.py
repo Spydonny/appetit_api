@@ -70,27 +70,27 @@ def select_subject(template: str, variables: Dict[str, Any], locale: str = "en")
         "verify_email": {
             "en": "Verify your email address",
             "ru": "Подтвердите ваш email адрес",
-            "kz": "Электрондық поштаңызды растаңыз"
+            "kk": "Электрондық поштаңызды растаңыз"
         },
         "order_created": {
             "en": "Order #{order_id} created",
             "ru": "Заказ №{order_id} создан",
-            "kz": "Тапсырыс №{order_id} жасалды"
+            "kk": "Тапсырыс №{order_id} жасалды"
         },
         "order_status": {
             "en": "Order #{order_id} status update", 
             "ru": "Обновление статуса заказа №{order_id}",
-            "kz": "Тапсырыс №{order_id} мәртебесі жаңартылды"
+            "kk": "Тапсырыс №{order_id} мәртебесі жаңартылды"
         },
         "order_delivered": {
             "en": "Order #{order_id} delivered",
             "ru": "Заказ №{order_id} доставлен",
-            "kz": "Тапсырыс №{order_id} жеткізілді"
+            "kk": "Тапсырыс №{order_id} жеткізілді"
         },
         "password_reset": {
             "en": "Reset your password",
             "ru": "Сброс пароля",
-            "kz": "Құпия сөзді қалпына келтіру"
+            "kk": "Құпия сөзді қалпына келтіру"
         }
     }
     
@@ -118,28 +118,28 @@ def render_template(template: str, variables: Dict[str, Any], locale: str = "en"
     # helper function to get localized text
     def get_text(key: str) -> str:
         texts = {
-            "hello": {"en": "Hello", "ru": "Привет", "kz": "Сәлем"},
-            "verify_email_desc": {"en": "Please verify your email address to complete your account setup.", "ru": "Пожалуйста, подтвердите свой email для завершения настройки аккаунта.", "kz": "Тіркелгіні орнатуды аяқтау үшін электрондық поштаңызды растаңыз."},
-            "verification_code": {"en": "Your verification code", "ru": "Ваш код подтверждения", "kz": "Сіздің растау кодыңыз"},
-            "verify_email_btn": {"en": "Verify Email", "ru": "Подтвердить Email", "kz": "Email растау"},
-            "button_not_work": {"en": "If the button doesn't work, copy and paste this link", "ru": "Если кнопка не работает, скопируйте и вставьте эту ссылку", "kz": "Егер түйме жұмыс істемесе, осы сілтемені көшіріп жапсырыңыз"},
-            "order_confirmed": {"en": "Order #{order_id} Confirmed!", "ru": "Заказ №{order_id} подтвержден!", "kz": "Тапсырыс №{order_id} расталды!"},
-            "thank_you_order": {"en": "Thank you for your order. We're preparing it now.", "ru": "Спасибо за ваш заказ. Мы готовим его сейчас.", "kz": "Тапсырысыңыз үшін рахмет. Біз оны дайындап жатырмыз."},
-            "type": {"en": "Type", "ru": "Тип", "kz": "Түрі"},
-            "estimated_time": {"en": "Estimated time", "ru": "Предполагаемое время", "kz": "Болжалды уақыт"},
-            "view_order": {"en": "View Order", "ru": "Посмотреть заказ", "kz": "Тапсырысты көру"},
-            "pickup": {"en": "Pickup", "ru": "Самовывоз", "kz": "Өзіңіз алу"},
-            "delivery": {"en": "Delivery", "ru": "Доставка", "kz": "Жеткізу"},
-            "order_update": {"en": "Order #{order_id} Update", "ru": "Обновление заказа №{order_id}", "kz": "Тапсырыс №{order_id} жаңартылуы"},
-            "status_updated": {"en": "Your order status has been updated to", "ru": "Статус вашего заказа обновлен до", "kz": "Тапсырысыңыздың мәртебесі жаңартылды"},
-            "order_delivered_msg": {"en": "Order #{order_id} Delivered!", "ru": "Заказ №{order_id} доставлен!", "kz": "Тапсырыс №{order_id} жеткізілді!"},
-            "delivered_thanks": {"en": "Your order has been successfully delivered. Thank you for choosing us!", "ru": "Ваш заказ успешно доставлен. Спасибо, что выбрали нас!", "kz": "Тапсырысыңыз сәтті жеткізілді. Бізді таңдағаныңыз үшін рахмет!"},
-            "rate_experience": {"en": "How was your experience?", "ru": "Как вам понравился наш сервис?", "kz": "Біздің қызмет қалай ұнады?"},
-            "rate_order": {"en": "Rate Your Order", "ru": "Оценить заказ", "kz": "Тапсырысты бағалау"},
-            "password_reset_msg": {"en": "Password Reset Request", "ru": "Запрос на сброс пароля", "kz": "Құпия сөзді қалпына келтіру сұрауы"},
-            "reset_desc": {"en": "You requested to reset your password. Click the button below to create a new password:", "ru": "Вы запросили сброс пароля. Нажмите кнопку ниже, чтобы создать новый пароль:", "kz": "Сіз құпия сөзді қалпына келтіруді сұрадыңыз. Жаңа құпия сөз жасау үшін төмендегі түймені басыңыз:"},
-            "reset_password": {"en": "Reset Password", "ru": "Сбросить пароль", "kz": "Құпия сөзді қалпына келтіру"},
-            "ignore_if_not_requested": {"en": "If you didn't request this, please ignore this email.", "ru": "Если вы не запрашивали это, пожалуйста, проигнорируйте это письмо.", "kz": "Егер сіз мұны сұрамаған болсаңыз, бұл хатты елемеңіз."}
+            "hello": {"en": "Hello", "ru": "Привет", "kk": "Сәлем"},
+            "verify_email_desc": {"en": "Please verify your email address to complete your account setup.", "ru": "Пожалуйста, подтвердите свой email для завершения настройки аккаунта.", "kk": "Тіркелгіні орнатуды аяқтау үшін электрондық поштаңызды растаңыз."},
+            "verification_code": {"en": "Your verification code", "ru": "Ваш код подтверждения", "kk": "Сіздің растау кодыңыз"},
+            "verify_email_btn": {"en": "Verify Email", "ru": "Подтвердить Email", "kk": "Email растау"},
+            "button_not_work": {"en": "If the button doesn't work, copy and paste this link", "ru": "Если кнопка не работает, скопируйте и вставьте эту ссылку", "kk": "Егер түйме жұмыс істемесе, осы сілтемені көшіріп жапсырыңыз"},
+            "order_confirmed": {"en": "Order #{order_id} Confirmed!", "ru": "Заказ №{order_id} подтвержден!", "kk": "Тапсырыс №{order_id} расталды!"},
+            "thank_you_order": {"en": "Thank you for your order. We're preparing it now.", "ru": "Спасибо за ваш заказ. Мы готовим его сейчас.", "kk": "Тапсырысыңыз үшін рахмет. Біз оны дайындап жатырмыз."},
+            "type": {"en": "Type", "ru": "Тип", "kk": "Түрі"},
+            "estimated_time": {"en": "Estimated time", "ru": "Предполагаемое время", "kk": "Болжалды уақыт"},
+            "view_order": {"en": "View Order", "ru": "Посмотреть заказ", "kk": "Тапсырысты көру"},
+            "pickup": {"en": "Pickup", "ru": "Самовывоз", "kk": "Өзіңіз алу"},
+            "delivery": {"en": "Delivery", "ru": "Доставка", "kk": "Жеткізу"},
+            "order_update": {"en": "Order #{order_id} Update", "ru": "Обновление заказа №{order_id}", "kk": "Тапсырыс №{order_id} жаңартылуы"},
+            "status_updated": {"en": "Your order status has been updated to", "ru": "Статус вашего заказа обновлен до", "kk": "Тапсырысыңыздың мәртебесі жаңартылды"},
+            "order_delivered_msg": {"en": "Order #{order_id} Delivered!", "ru": "Заказ №{order_id} доставлен!", "kk": "Тапсырыс №{order_id} жеткізілді!"},
+            "delivered_thanks": {"en": "Your order has been successfully delivered. Thank you for choosing us!", "ru": "Ваш заказ успешно доставлен. Спасибо, что выбрали нас!", "kk": "Тапсырысыңыз сәтті жеткізілді. Бізді таңдағаныңыз үшін рахмет!"},
+            "rate_experience": {"en": "How was your experience?", "ru": "Как вам понравился наш сервис?", "kk": "Біздің қызмет қалай ұнады?"},
+            "rate_order": {"en": "Rate Your Order", "ru": "Оценить заказ", "kk": "Тапсырысты бағалау"},
+            "password_reset_msg": {"en": "Password Reset Request", "ru": "Запрос на сброс пароля", "kk": "Құпия сөзді қалпына келтіру сұрауы"},
+            "reset_desc": {"en": "You requested to reset your password. Click the button below to create a new password:", "ru": "Вы запросили сброс пароля. Нажмите кнопку ниже, чтобы создать новый пароль:", "kk": "Сіз құпия сөзді қалпына келтіруді сұрадыңыз. Жаңа құпия сөз жасау үшін төмендегі түймені басыңыз:"},
+            "reset_password": {"en": "Reset Password", "ru": "Сбросить пароль", "kk": "Құпия сөзді қалпына келтіру"},
+            "ignore_if_not_requested": {"en": "If you didn't request this, please ignore this email.", "ru": "Если вы не запрашивали это, пожалуйста, проигнорируйте это письмо.", "kk": "Егер сіз мұны сұрамаған болсаңыз, бұл хатты елемеңіз."}
         }
         return texts.get(key, {}).get(locale, texts.get(key, {}).get("en", ""))
     
@@ -238,7 +238,7 @@ def send_email(
         variables: Template variables
         user_id: Optional user ID for tracking
         idempotency_key: Optional key for preventing duplicate sends
-        locale: Locale code for localized content (en, ru, kz)
+        locale: Locale code for localized content (en, ru, kk)
         
     Returns:
         Dict with result including message_id from Resend

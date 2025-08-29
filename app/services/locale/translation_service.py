@@ -56,7 +56,7 @@ class GeminiTranslationService:
         
         Args:
             text: Text to translate
-            target_language: Target language code (en, kz)
+            target_language: Target language code (en, kk)
             source_language: Source language code (default: ru)
             
         Returns:
@@ -69,7 +69,7 @@ class GeminiTranslationService:
         language_names = {
             "ru": "Russian",
             "en": "English", 
-            "kz": "Kazakh"
+            "kk": "Kazakh"
         }
         
         source_lang_name = language_names.get(source_language, source_language)
@@ -94,7 +94,7 @@ class GeminiTranslationService:
     def translate_to_multiple_languages(
         self, 
         text: str, 
-        target_languages: List[str] = ["en", "kz"], 
+        target_languages: List[str] = ["en", "kk"], 
         source_language: str = "ru"
     ) -> Dict[str, str]:
         """
@@ -115,7 +115,7 @@ class GeminiTranslationService:
         language_names = {
             "ru": "Russian",
             "en": "English", 
-            "kz": "Kazakh"
+            "kk": "Kazakh"
         }
         
         source_lang_name = language_names.get(source_language, source_language)
@@ -127,7 +127,7 @@ class GeminiTranslationService:
             Provide culturally appropriate translations that preserve the food item's meaning.
             Return the result as a JSON object with language codes as keys.
             
-            Example format: {{"en": "English translation", "kz": "Kazakh translation"}}
+            Example format: {{"en": "English translation", "kk": "Kazakh translation"}}
             
             Text to translate: "{text}"
             """
@@ -171,7 +171,7 @@ class GeminiTranslationService:
             existing_translations: Existing translation dictionary to preserve
             
         Returns:
-            Complete translation dictionary with ru, en, and kz keys
+            Complete translation dictionary with ru, en, and kk keys
         """
         # Start with existing translations or empty dict
         # Handle Mock objects in tests by ensuring we always work with a real dict
@@ -191,7 +191,7 @@ class GeminiTranslationService:
         # Generate missing translations using Gemini
         if self.is_available() and russian_text:
             # Find which translations are missing
-            needed_languages = [lang for lang in ["en", "kz"] if lang not in translations]
+            needed_languages = [lang for lang in ["en", "kk"] if lang not in translations]
             
             if needed_languages:
                 auto_translations = self.translate_to_multiple_languages(

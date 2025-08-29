@@ -320,31 +320,31 @@ def seed_initial_data():
                     "name": "сырный", 
                     "category": "sauce", 
                     "is_default": True,
-                    "name_translations": {"ru": "сырный", "kz": "ірімшік", "en": "cheese"}
+                    "name_translations": {"ru": "сырный", "kk": "ірімшік", "en": "cheese"}
                 },
                 {
                     "name": "кетчуп", 
                     "category": "sauce", 
                     "is_default": True,
-                    "name_translations": {"ru": "кетчуп", "kz": "кетчуп", "en": "ketchup"}
+                    "name_translations": {"ru": "кетчуп", "kk": "кетчуп", "en": "ketchup"}
                 },
                 {
                     "name": "кисло-сладкий", 
                     "category": "sauce", 
                     "is_default": True,
-                    "name_translations": {"ru": "кисло-сладкий", "kz": "қышқыл-тәтті", "en": "sweet and sour"}
+                    "name_translations": {"ru": "кисло-сладкий", "kk": "қышқыл-тәтті", "en": "sweet and sour"}
                 },
                 {
                     "name": "ранч", 
                     "category": "sauce", 
                     "is_default": True,
-                    "name_translations": {"ru": "ранч", "kz": "ранч", "en": "ranch"}
+                    "name_translations": {"ru": "ранч", "kk": "ранч", "en": "ranch"}
                 },
                 {
                     "name": "горчичный", 
                     "category": "sauce", 
                     "is_default": True,
-                    "name_translations": {"ru": "горчичный", "kz": "қыша", "en": "mustard"}
+                    "name_translations": {"ru": "горчичный", "kk": "қыша", "en": "mustard"}
                 },
             ]
             
@@ -354,25 +354,25 @@ def seed_initial_data():
                     "name": "лука", 
                     "category": "removal", 
                     "is_default": False,
-                    "name_translations": {"ru": "лука", "kz": "пияз", "en": "onion"}
+                    "name_translations": {"ru": "лука", "kk": "пияз", "en": "onion"}
                 },
                 {
                     "name": "майонеза", 
                     "category": "removal", 
                     "is_default": False,
-                    "name_translations": {"ru": "майонеза", "kz": "майонез", "en": "mayonnaise"}
+                    "name_translations": {"ru": "майонеза", "kk": "майонез", "en": "mayonnaise"}
                 },
                 {
                     "name": "кетчупа", 
                     "category": "removal", 
                     "is_default": False,
-                    "name_translations": {"ru": "кетчупа", "kz": "кетчуп", "en": "ketchup"}
+                    "name_translations": {"ru": "кетчупа", "kk": "кетчуп", "en": "ketchup"}
                 },
                 {
                     "name": "мяса", 
                     "category": "removal", 
                     "is_default": False,
-                    "name_translations": {"ru": "мяса", "kz": "ет", "en": "meat"}
+                    "name_translations": {"ru": "мяса", "kk": "ет", "en": "meat"}
                 },
             ]
             

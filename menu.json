@@ -4,7 +4,7 @@
       "category": "Напитки",
       "category_translations": {
         "ru": "Напитки",
-        "kz": "Сусындар",
+        "kk": "Сусындар",
         "en": "Beverages"
       },
       "items": [
@@ -12,7 +12,7 @@
           "name": "Сок Лимонный 1,0л",
           "name_translations": {
             "ru": "Сок Лимонный 1,0л",
-            "kz": "Лимон шырыны 1,0л",
+            "kk": "Лимон шырыны 1,0л",
             "en": "Lemon Juice 1.0l"
           },
           "description": "",
@@ -24,25 +24,25 @@
           "price": 990
         },
         {
-          "name": "Сок Лимонный 0,3л",
-          "name_translations": {
-            "ru": "Сок Лимонный 0,3л",
-            "kz": "Лимон шырыны 0,3л",
-            "en": "Lemon Juice 0.3l"
-          },
-          "description": "",
-          "description_translations": {
-            "ru": "",
-            "kz": "",
-            "en": ""
-          },
+                  "name": "Сок Лимонный 0,3л",
+        "name_translations": {
+          "ru": "Сок Лимонный 0,3л",
+          "kk": "Лимон шырыны 0,3л",
+          "en": "Lemon Juice 0.3l"
+        },
+        "description": "",
+        "description_translations": {
+          "ru": "",
+          "kk": "",
+          "en": ""
+        },
           "price": 390
         },
         {
           "name": "Морс Смородина 1,0л",
           "name_translations": {
             "ru": "Морс Смородина 1,0л",
-            "kz": "Қарақат морсы 1,0л",
+            "kk": "Қарақат морсы 1,0л",
             "en": "Currant Fruit Drink 1.0l"
           },
           "description": "",
@@ -57,7 +57,7 @@
           "name": "Морс Смородина 0,3л",
           "name_translations": {
             "ru": "Морс Смородина 0,3л",
-            "kz": "Қарақат морсы 0,3л",
+            "kk": "Қарақат морсы 0,3л",
             "en": "Currant Fruit Drink 0.3l"
           },
           "description": "",
@@ -72,7 +72,7 @@
           "name": "Айран 1ст",
           "name_translations": {
             "ru": "Айран 1ст",
-            "kz": "Айран 1ст",
+            "kk": "Айран 1ст",
             "en": "Ayran 1 glass"
           },
           "description": "",
@@ -87,7 +87,7 @@
           "name": "Пепси 1л",
           "name_translations": {
             "ru": "Пепси 1л",
-            "kz": "Пепси 1л",
+            "kk": "Пепси 1л",
             "en": "Pepsi 1l"
           },
           "description": "",
@@ -102,7 +102,7 @@
           "name": "Пепси 0,5л",
           "name_translations": {
             "ru": "Пепси 0,5л",
-            "kz": "Пепси 0,5л",
+            "kk": "Пепси 0,5л",
             "en": "Pepsi 0.5l"
           },
           "description": "",
@@ -117,7 +117,7 @@
           "name": "Пиала чай 1л",
           "name_translations": {
             "ru": "Пиала чай 1л",
-            "kz": "Пиала шай 1л",
+            "kk": "Пиала шай 1л",
             "en": "Bowl Tea 1l"
           },
           "description": "",
@@ -132,7 +132,7 @@
           "name": "Пиала чай 0,5л",
           "name_translations": {
             "ru": "Пиала чай 0,5л",
-            "kz": "Пиала шай 0,5л",
+            "kk": "Пиала шай 0,5л",
             "en": "Bowl Tea 0.5l"
           },
           "description": "",
@@ -147,7 +147,7 @@
           "name": "ДаДа 1л",
           "name_translations": {
             "ru": "ДаДа 1л",
-            "kz": "ДаДа 1л",
+            "kk": "ДаДа 1л",
             "en": "DaDa 1l"
           },
           "description": "",
@@ -162,7 +162,7 @@
           "name": "Сок ДаДа 0,2л",
           "name_translations": {
             "ru": "Сок ДаДа 0,2л",
-            "kz": "ДаДа шырыны 0,2л",
+            "kk": "ДаДа шырыны 0,2л",
             "en": "DaDa Juice 0.2l"
           },
           "description": "",
@@ -177,7 +177,7 @@
           "name": "Асу 0,5л",
           "name_translations": {
             "ru": "Асу 0,5л",
-            "kz": "Асу 0,5л",
+            "kk": "Асу 0,5л",
             "en": "Asu 0.5l"
           },
           "description": "",
@@ -192,7 +192,7 @@
           "name": "Асу 1л",
           "name_translations": {
             "ru": "Асу 1л",
-            "kz": "Асу 1л",
+            "kk": "Асу 1л",
             "en": "Asu 1l"
           },
           "description": "",
@@ -207,7 +207,7 @@
           "name": "Лавина 0,5л",
           "name_translations": {
             "ru": "Лавина 0,5л",
-            "kz": "Лавина 0,5л",
+            "kk": "Лавина 0,5л",
             "en": "Lavina 0.5l"
           },
           "description": "",
@@ -222,7 +222,7 @@
           "name": "Горила 0,5л",
           "name_translations": {
             "ru": "Горила 0,5л",
-            "kz": "Горила 0,5л",
+            "kk": "Горила 0,5л",
             "en": "Gorilla 0.5l"
           },
           "description": "",
@@ -239,7 +239,7 @@
       "category": "Соусы",
       "category_translations": {
         "ru": "Соусы",
-        "kz": "Тұздықтар",
+        "kk": "Тұздықтар",
         "en": "Sauces"
       },
       "items": [
@@ -247,7 +247,7 @@
           "name": "Перчики острые 15г",
           "name_translations": {
             "ru": "Перчики острые 15г",
-            "kz": "Ащы бұрыш 15г",
+            "kk": "Ащы бұрыш 15г",
             "en": "Hot Peppers 15g"
           },
           "description": "",
@@ -262,7 +262,7 @@
           "name": "соус Сырный 30г",
           "name_translations": {
             "ru": "соус Сырный 30г",
-            "kz": "Ірімшік тұздығы 30г",
+            "kk": "Ірімшік тұздығы 30г",
             "en": "Cheese Sauce 30g"
           },
           "description": "",
@@ -277,7 +277,7 @@
           "name": "соус Томатный 30г",
           "name_translations": {
             "ru": "соус Томатный 30г",
-            "kz": "Қызанақ тұздығы 30г",
+            "kk": "Қызанақ тұздығы 30г",
             "en": "Tomato Sauce 30g"
           },
           "description": "",
@@ -292,7 +292,7 @@
           "name": "соус Горчичный 30г",
           "name_translations": {
             "ru": "соус Горчичный 30г",
-            "kz": "Қыша тұздығы 30г",
+            "kk": "Қыша тұздығы 30г",
             "en": "Mustard Sauce 30g"
           },
           "description": "",
@@ -307,7 +307,7 @@
           "name": "соус Барбекю 30г",
           "name_translations": {
             "ru": "соус Барбекю 30г",
-            "kz": "Барбекю тұздығы 30г",
+            "kk": "Барбекю тұздығы 30г",
             "en": "BBQ Sauce 30g"
           },
           "description": "",
@@ -322,7 +322,7 @@
           "name": "соус Чесночный 30г",
           "name_translations": {
             "ru": "соус Чесночный 30г",
-            "kz": "Сарымсақ тұздығы 30г",
+            "kk": "Сарымсақ тұздығы 30г",
             "en": "Garlic Sauce 30g"
           },
           "description": "",
@@ -337,7 +337,7 @@
           "name": "соус Острый 30г",
           "name_translations": {
             "ru": "соус Острый 30г",
-            "kz": "Ащы тұздық 30г",
+            "kk": "Ащы тұздық 30г",
             "en": "Hot Sauce 30g"
           },
           "description": "",
@@ -354,7 +354,7 @@
       "category": "Закуски",
       "category_translations": {
         "ru": "Закуски",
-        "kz": "Жеңіл тағамдар",
+        "kk": "Жеңіл тағамдар",
         "en": "Snacks"
       },
       "items": [
@@ -362,13 +362,13 @@
           "name": "Шекер",
           "name_translations": {
             "ru": "Шекер",
-            "kz": "Шекер",
+            "kk": "Шекер",
             "en": "Sheker"
           },
           "description": "Сладкие палочки из теста, обжаренные во фритюре",
           "description_translations": {
             "ru": "Сладкие палочки из теста, обжаренные во фритюре",
-            "kz": "Майда құймасынан жасалған тәтті таяқшалар, фритюрде қуырылған",
+            "kk": "Майда құймасынан жасалған тәтті таяқшалар, фритюрде қуырылған",
             "en": "Sweet dough sticks fried in deep oil"
           },
           "price": 400
@@ -377,13 +377,13 @@
           "name": "Чебуречки",
           "name_translations": {
             "ru": "Чебуречки",
-            "kz": "Шебуректер",
+            "kk": "Шебуректер",
             "en": "Chebureki"
           },
           "description": "Сочные и вкусные чебуречки, обжаренные во фритюре",
           "description_translations": {
             "ru": "Сочные и вкусные чебуречки, обжаренные во фритюре",
-            "kz": "Шырынды және дәмді шебуректер, фритюрде қуырылған",
+            "kk": "Шырынды және дәмді шебуректер, фритюрде қуырылған",
             "en": "Juicy and delicious chebureki fried in deep oil"
           },
           "price": 990
@@ -392,13 +392,13 @@
           "name": "Наггетсы",
           "name_translations": {
             "ru": "Наггетсы",
-            "kz": "Наггетсы",
+            "kk": "Наггетсы",
             "en": "Nuggets"
           },
           "description": "Нежнейшие кусочки куриного мяса в золотистой панировке!",
           "description_translations": {
             "ru": "Нежнейшие кусочки куриного мяса в золотистой панировке!",
-            "kz": "Алтын панировкадағы тауық етінің ең нәзік кесектері!",
+            "kk": "Алтын панировкадағы тауық етінің ең нәзік кесектері!",
             "en": "The most tender pieces of chicken meat in golden breading!"
           },
           "price": 1490
@@ -407,13 +407,13 @@
           "name": "Фри",
           "name_translations": {
             "ru": "Фри",
-            "kz": "Фри",
+            "kk": "Фри",
             "en": "Fries"
           },
           "description": "Кусочки картофеля, обжаренные во фритюре",
           "description_translations": {
             "ru": "Кусочки картофеля, обжаренные во фритюре",
-            "kz": "Фритюрде қуырылған картоп кесектері",
+            "kk": "Фритюрде қуырылған картоп кесектері",
             "en": "Potato pieces fried in deep oil"
           },
           "price": 790
@@ -422,13 +422,13 @@
           "name": "Дольки",
           "name_translations": {
             "ru": "Дольки",
-            "kz": "Дольктер",
+            "kk": "Дольктер",
             "en": "Wedges"
           },
           "description": "Воздушная картофельная мякоть с деликатным пряным вкусом",
           "description_translations": {
             "ru": "Воздушная картофельная мякоть с деликатным пряным вкусом",
-            "kz": "Нәзік дәмдеуішпен ауа картоп жеміс еті",
+            "kk": "Нәзік дәмдеуішпен ауа картоп жеміс еті",
             "en": "Airy potato pulp with delicate spicy flavor"
           },
           "price": 1190
@@ -439,7 +439,7 @@
       "category": "Комбо",
       "category_translations": {
         "ru": "Комбо",
-        "kz": "Комбо",
+        "kk": "Комбо",
         "en": "Combo"
       },
       "items": [
@@ -447,13 +447,13 @@
           "name": "Комбо для ОДНОГО",
           "name_translations": {
             "ru": "Комбо для ОДНОГО",
-            "kz": "БІР АДАМҒА арналған комбо",
+            "kk": "БІР АДАМҒА арналған комбо",
             "en": "Combo for ONE"
           },
           "description": "В комбо: фирменная шаурма, картошка фри и айран",
           "description_translations": {
             "ru": "В комбо: фирменная шаурма, картошка фри и айран",
-            "kz": "Комбода: фирмалық шаурма, картоп фри және айран",
+            "kk": "Комбода: фирмалық шаурма, картоп фри және айран",
             "en": "In combo: signature shawarma, french fries and ayran"
           },
           "price": 2490
@@ -462,13 +462,13 @@
           "name": "Комbo для ДВОИХ",
           "name_translations": {
             "ru": "Комbo для ДВОИХ",
-            "kz": "ЕКІ АДАМҒА арналған комбо",
+            "kk": "ЕКІ АДАМҒА арналған комбо",
             "en": "Combo for TWO"
           },
           "description": "В комbo: 2 фирменные средние шаурмы, порция фри",
           "description_translations": {
             "ru": "В комbo: 2 фирменные средние шаурмы, порция фри",
-            "kz": "Комбода: 2 фирмалық орташа шаурма, фри порциясы",
+            "kk": "Комбода: 2 фирмалық орташа шаурма, фри порциясы",
             "en": "In combo: 2 signature medium shawarmas, fries portion"
           },
           "price": 4490
@@ -477,13 +477,13 @@
           "name": "Комbo для КОМПАНИИ",
           "name_translations": {
             "ru": "Комbo для КОМПАНИИ",
-            "kz": "КОМПАНИЯҒА арналған комбо",
+            "kk": "КОМПАНИЯҒА арналған комбо",
             "en": "Combo for COMPANY"
           },
           "description": "В комbo: 4 средние шаурмы на выбор, 2 порции фри и 2 напитка",
           "description_translations": {
             "ru": "В комbo: 4 средние шаурмы на выбор, 2 порции фри и 2 напитка",
-            "kz": "Комбода: таңдауыңыз бойынша 4 орташа шаурма, 2 фри порциясы және 2 сусын",
+            "kk": "Комбода: таңдауыңыз бойынша 4 орташа шаурма, 2 фри порциясы және 2 сусын",
             "en": "In combo: 4 medium shawarmas of your choice, 2 fries portions and 2 drinks"
           },
           "price": 8900
@@ -494,111 +494,111 @@
       "category": "Блюда",
       "category_translations": {
         "ru": "Блюда",
-        "kz": "Тағамдар",
+        "kk": "Тағамдар",
         "en": "Dishes"
       },
       "items": [
         {
-          "name": "Фирменная Средняя шаурма",
-          "name_translations": {
-            "ru": "Фирменная Средняя шаурма",
-            "kz": "Фирмалық Орташа шаурма",
-            "en": "Signature Medium Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
-            "kz": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
-            "en": "Thin lavash, juicy beef pieces, potatoes"
-          },
+                  "name": "Фирменная Средняя шаурма",
+        "name_translations": {
+          "ru": "Фирменная Средняя шаурма",
+          "kk": "Фирмалық Орташа шаурма",
+          "en": "Signature Medium Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
+          "kk": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
+          "en": "Thin lavash, juicy beef pieces, potatoes"
+        },
           "price": 1990
         },
         {
-          "name": "Фирменная Большая шаурма",
-          "name_translations": {
-            "ru": "Фирменная Большая шаурма",
-            "kz": "Фирмалық Үлкен шаурма",
-            "en": "Signature Large Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
-            "kz": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
-            "en": "Thin lavash, juicy beef pieces, potatoes"
-          },
+                  "name": "Фирменная Большая шаурма",
+        "name_translations": {
+          "ru": "Фирменная Большая шаурма",
+          "kk": "Фирмалық Үлкен шаурма",
+          "en": "Signature Large Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
+          "kk": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
+          "en": "Thin lavash, juicy beef pieces, potatoes"
+        },
           "price": 2990
         },
         {
-          "name": "Классическая Средняя шаурма",
-          "name_translations": {
-            "ru": "Классическая Средняя шаурма",
-            "kz": "Классикалық Орташа шаурма",
-            "en": "Classic Medium Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
-            "kz": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
-            "en": "Thin lavash, juicy beef pieces, potatoes"
-          },
+                  "name": "Классическая Средняя шаурма",
+        "name_translations": {
+          "ru": "Классическая Средняя шаурма",
+          "kk": "Классикалық Орташа шаурма",
+          "en": "Classic Medium Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
+          "kk": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
+          "en": "Thin lavash, juicy beef pieces, potatoes"
+        },
           "price": 1690
         },
         {
-          "name": "Классическая Большая шаурма",
-          "name_translations": {
-            "ru": "Классическая Большая шаурма",
-            "kz": "Классикалық Үлкен шаурма",
-            "en": "Classic Large Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
-            "kz": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
-            "en": "Thin lavash, juicy beef pieces, potatoes"
-          },
+                  "name": "Классическая Большая шаурма",
+        "name_translations": {
+          "ru": "Классическая Большая шаурма",
+          "kk": "Классикалық Үлкен шаурма",
+          "en": "Classic Large Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки говядины, картофель",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки говядины, картофель",
+          "kk": "Жұқа лаваш, шырынды сиыр еті кесектері, картоп",
+          "en": "Thin lavash, juicy beef pieces, potatoes"
+        },
           "price": 2490
         },
         {
-          "name": "Куриная Большая шаурма",
-          "name_translations": {
-            "ru": "Куриная Большая шаурма",
-            "kz": "Тауықты Үлкен шаурма",
-            "en": "Chicken Large Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки курицы, картофель",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки курицы, картофель",
-            "kz": "Жұқа лаваш, шырынды тауық еті кесектері, картоп",
-            "en": "Thin lavash, juicy chicken pieces, potatoes"
-          },
+                  "name": "Куриная Большая шаурма",
+        "name_translations": {
+          "ru": "Куриная Большая шаурма",
+          "kk": "Тауықты Үлкен шаурма",
+          "en": "Chicken Large Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки курицы, картофель",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки курицы, картофель",
+          "kk": "Жұқа лаваш, шырынды тауық еті кесектері, картоп",
+          "en": "Thin lavash, juicy chicken pieces, potatoes"
+        },
           "price": 2390
         },
         {
-          "name": "Куриная Средняя шаурма",
-          "name_translations": {
-            "ru": "Куриная Средняя шаурма",
-            "kz": "Тауықты Орташа шаурма",
-            "en": "Chicken Medium Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки курицы, картофель",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки курицы, картофель",
-            "kz": "Жұқа лаваш, шырынды тауық еті кесектері, картоп",
-            "en": "Thin lavash, juicy chicken pieces, potatoes"
-          },
+                  "name": "Куриная Средняя шаурма",
+        "name_translations": {
+          "ru": "Куриная Средняя шаурма",
+          "kk": "Тауықты Орташа шаурма",
+          "en": "Chicken Medium Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки курицы, картофель",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки курицы, картофель",
+          "kk": "Жұқа лаваш, шырынды тауық еті кесектері, картоп",
+          "en": "Thin lavash, juicy chicken pieces, potatoes"
+        },
           "price": 1500
         },
         {
           "name": "Донер с говядиной",
           "name_translations": {
             "ru": "Донер с говядиной",
-            "kz": "Сиыр етімен донер",
+            "kk": "Сиыр етімен донер",
             "en": "Beef Doner"
           },
           "description": "Булочка, сочные кусочки говядины, картофель фри",
           "description_translations": {
             "ru": "Булочка, сочные кусочки говядины, картофель фри",
-            "kz": "Булочка, шырынды сиыр еті кесектері, картоп фри",
+            "kk": "Булочка, шырынды сиыр еті кесектері, картоп фри",
             "en": "Bun, juicy beef pieces, french fries"
           },
           "price": 1490
@@ -607,60 +607,60 @@
           "name": "Донер с курицей",
           "name_translations": {
             "ru": "Донер с курицей",
-            "kz": "Тауық етімен донер",
+            "kk": "Тауық етімен донер",
             "en": "Chicken Doner"
           },
           "description": "Булочка, сочные кусочки курицы, картофель фри",
           "description_translations": {
             "ru": "Булочка, сочные кусочки курицы, картофель фри",
-            "kz": "Булочка, шырынды тауық еті кесектері, картоп фри",
+            "kk": "Булочка, шырынды тауық еті кесектері, картоп фри",
             "en": "Bun, juicy chicken pieces, french fries"
           },
           "price": 1490
         },
         {
-          "name": "Мраморная Большая шаурма",
-          "name_translations": {
-            "ru": "Мраморная Большая шаурма",
-            "kz": "Мәрмәр Үлкен шаурма",
-            "en": "Marble Large Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки мраморной говядины",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки мраморной говядины",
-            "kz": "Жұқа лаваш, мәрмәр сиыр етінің шырынды кесектері",
-            "en": "Thin lavash, juicy marbled beef pieces"
-          },
+                  "name": "Мраморная Большая шаурма",
+        "name_translations": {
+          "ru": "Мраморная Большая шаурма",
+          "kk": "Мәрмәр Үлкен шаурма",
+          "en": "Marble Large Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки мраморной говядины",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки мраморной говядины",
+          "kk": "Жұқа лаваш, мәрмәр сиыр етінің шырынды кесектері",
+          "en": "Thin lavash, juicy marbled beef pieces"
+        },
           "price": 3390
         },
         {
           "name": "Хот-дог",
           "name_translations": {
             "ru": "Хот-дог",
-            "kz": "Хот-дог",
+            "kk": "Хот-дог",
             "en": "Hot Dog"
           },
           "description": "Булочка, сосиски обжаренные на гриле",
           "description_translations": {
             "ru": "Булочка, сосиски обжаренные на гриле",
-            "kz": "Булочка, грильде қуырылған шұжықтар",
+            "kk": "Булочка, грильде қуырылған шұжықтар",
             "en": "Bun, grilled sausages"
           },
           "price": 990
         },
         {
-          "name": "Мраморная Средняя шаурma",
-          "name_translations": {
-            "ru": "Мраморная Средняя шаурma",
-            "kz": "Мәрмәр Орташа шаурма",
-            "en": "Marble Medium Shawarma"
-          },
-          "description": "Тонкий лаваш, сочные кусочки мраморной говядины",
-          "description_translations": {
-            "ru": "Тонкий лаваш, сочные кусочки мраморной говядины",
-            "kz": "Жұқа лаваш, мәрмәр сиыр етінің шырынды кесектері",
-            "en": "Thin lavash, juicy marbled beef pieces"
-          },
+                  "name": "Мраморная Средняя шаурma",
+        "name_translations": {
+          "ru": "Мраморная Средняя шаурma",
+          "kk": "Мәрмәр Орташа шаурма",
+          "en": "Marble Medium Shawarma"
+        },
+        "description": "Тонкий лаваш, сочные кусочки мраморной говядины",
+        "description_translations": {
+          "ru": "Тонкий лаваш, сочные кусочки мраморной говядины",
+          "kk": "Жұқа лаваш, мәрмәр сиыр етінің шырынды кесектері",
+          "en": "Thin lavash, juicy marbled beef pieces"
+        },
           "price": 2390
         }
       ]

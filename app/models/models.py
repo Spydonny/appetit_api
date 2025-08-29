@@ -74,7 +74,7 @@ class Category(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(String(255))
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
-    name_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English", "ru": "Russian", "kz": "Kazakh"}
+    name_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English", "ru": "Russian", "kk": "Kazakh"}
     sort: Mapped[int] = mapped_column(Integer, default=0)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
     sort_order: Mapped[int] = mapped_column(Integer, default=0)
@@ -90,9 +90,9 @@ class MenuItem(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     category_id: Mapped[int | None] = mapped_column(ForeignKey("categories.id", ondelete="SET NULL"), nullable=True)
     name: Mapped[str] = mapped_column(String(255))
-    name_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English name", "ru": "Russian name", "kz": "Kazakh name"}
+    name_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English name", "ru": "Russian name", "kk": "Kazakh name"}
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
-    description_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English desc", "ru": "Russian desc", "kz": "Kazakh desc"}
+    description_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English desc", "ru": "Russian desc", "kk": "Kazakh desc"}
     price: Mapped[float] = mapped_column(Numeric(10, 2))
     image_url: Mapped[str | None] = mapped_column(String(1024), nullable=True)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
@@ -300,7 +300,7 @@ class ModificationType(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(String(255))
-    name_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English", "ru": "Russian", "kz": "Kazakh"}
+    name_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English", "ru": "Russian", "kk": "Kazakh"}
     category: Mapped[str] = mapped_column(String(16))  # 'sauce' or 'removal'
     is_default: Mapped[bool] = mapped_column(Boolean, default=False)  # True for default sauces
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
@@ -370,9 +370,9 @@ class Banner(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     title: Mapped[str] = mapped_column(String(255))
-    title_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English", "ru": "Russian", "kz": "Kazakh"}
+    title_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English", "ru": "Russian", "kk": "Kazakh"}
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
-    description_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English desc", "ru": "Russian desc", "kz": "Kazakh desc"}
+    description_translations: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # {"en": "English desc", "ru": "Russian desc", "kk": "Kazakh desc"}
     image_url: Mapped[str] = mapped_column(String(1024))  # WebP format image URL
     link_url: Mapped[str | None] = mapped_column(String(1024), nullable=True)  # Optional link for banner click
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
